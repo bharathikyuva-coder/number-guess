@@ -1,0 +1,51 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #048f75ec, #b6bddd);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.container {
+  background-color: rgb(247, 244, 244);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(240, 233, 233, 0.15);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Button styling */
+.button {
+  background-color: #4caf50;
+  color: rgb(124, 6, 6);
+  padding: 15px 25px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #147219c2;
+}
